@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://samuelintheforest.github.io/Scheduler-UWP/scheduler_installer/Scheduler.appinstaller"
+	Version="1.0.3.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="99ecc927-01d6-4be1-98f2-481d19378517"
+		Version="1.0.3.0"
+		Publisher="CN=keres"
+		Uri="https://samuelintheforest.github.io/Scheduler-UWP/scheduler_installer/Scheduler_1.0.3.0_Test/Scheduler_1.0.3.0_x64.msixbundle" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.VCLibs.140.00"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://samuelintheforest.github.io/Scheduler-UWP/scheduler_installer/Scheduler_1.0.3.0_Test/Dependencies/x64/Microsoft.VCLibs.x64.14.00.appx"
+			Version="14.0.30035.0" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="96" />
+	</UpdateSettings>
+</AppInstaller>
